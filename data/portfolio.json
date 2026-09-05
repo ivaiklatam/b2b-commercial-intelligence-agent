@@ -1,0 +1,134 @@
+{
+  "documents": [
+    {
+      "id": "PROD001",
+      "doc_type": "product",
+      "title": "SD-WAN Enterprise Multi-Site",
+      "sector": ["manufacturing", "logistics", "retail", "construction"],
+      "timestamp": "2026-01-15",
+      "content": "Solucion de conectividad SD-WAN para empresas con multiples sedes. Permite gestion centralizada del trafico de red, priorización de aplicaciones criticas y reduccion de costos de conectividad hasta un 40%. Incluye monitoreo en tiempo real, failover automatico y soporte 24/7. Ideal para empresas con mas de 5 sedes o en proceso de expansion geografica. Precio base desde 800 USD mensuales por sede.",
+      "outcomes": "Cliente Logistica Nacional redujo costos de conectividad 38% en 12 meses con 23 sedes conectadas",
+      "partner": "Cisco"
+    },
+    {
+      "id": "PROD002",
+      "doc_type": "product",
+      "title": "Ciberseguridad Empresarial 360",
+      "sector": ["financial_services", "healthcare", "pharma", "insurance"],
+      "timestamp": "2026-02-10",
+      "content": "Plataforma integral de ciberseguridad que incluye firewall de nueva generacion, deteccion de amenazas con IA, gestion de identidades y accesos, y cumplimiento normativo. Certificada para sectores regulados como financiero y salud. Incluye SOC administrado 24/7 y respuesta a incidentes. Desde 2.500 USD mensuales segun numero de usuarios y activos protegidos.",
+      "outcomes": "Financiera del Pacifico cumplio regulaciones SFC y redujo incidentes de seguridad 92% en primer año",
+      "partner": "Fortinet"
+    },
+    {
+      "id": "PROD003",
+      "doc_type": "product",
+      "title": "Cloud Privada Gestionada",
+      "sector": ["technology", "education", "media", "real_estate"],
+      "timestamp": "2026-01-20",
+      "content": "Infraestructura cloud privada completamente gestionada con SLA de 99.9% de disponibilidad. Incluye compute, storage, backup automatico, disaster recovery y soporte tecnico especializado. Migracion sin costo adicional para contratos de 24 meses o mas. Desde 1.200 USD mensuales segun capacidad requerida.",
+      "outcomes": "Editorial Digital migro 100% de su infraestructura en 45 dias con cero tiempo de inactividad",
+      "partner": "VMware"
+    },
+    {
+      "id": "PROD004",
+      "doc_type": "product",
+      "title": "IoT Industrial y Conectividad M2M",
+      "sector": ["manufacturing", "mining", "energy", "agriculture"],
+      "timestamp": "2026-03-01",
+      "content": "Solucion de conectividad IoT para entornos industriales con redes privadas LTE/5G, gestion de dispositivos M2M y plataforma de analisis de datos en tiempo real. Soporta hasta 50.000 dispositivos conectados. Ideal para plantas industriales, minas y campos agricolas. Incluye SIM management y plataforma de analytics. Desde 15 USD por dispositivo mensual.",
+      "outcomes": "Minera Andina conecto 8.000 sensores industriales reduciendo tiempo de inactividad no planificado 67%",
+      "partner": "Ericsson"
+    },
+    {
+      "id": "PROD005",
+      "doc_type": "product",
+      "title": "Fibra Dedicada Empresarial",
+      "sector": ["financial_services", "healthcare", "hospitality", "transportation"],
+      "timestamp": "2026-02-28",
+      "content": "Conectividad de fibra optica dedicada con velocidades desde 100Mbps hasta 10Gbps, SLA de 99.95% y latencia menor a 5ms. Canal dedicado y exclusivo sin compartir con otros clientes. Incluye IP estatica, soporte prioritario y monitoreo proactivo. Desde 450 USD mensuales segun velocidad y ubicacion.",
+      "outcomes": "Hospital Central mejoro tiempos de carga de imagenes medicas 85% y habilito telemedicina en 12 sedes",
+      "partner": "Huawei"
+    },
+    {
+      "id": "PROP001",
+      "doc_type": "proposal",
+      "title": "Propuesta SD-WAN Retail Express 2025",
+      "sector": ["retail"],
+      "timestamp": "2025-08-15",
+      "content": "Propuesta para implementacion de SD-WAN en 45 puntos de venta de Retail Express. Problema identificado: conectividad inconsistente en tiendas causando perdida de ventas por fallas en POS y sistemas de inventario. Solucion propuesta: SD-WAN con failover automatico 4G LTE como respaldo. Implementacion en 3 fases de 15 sedes cada una. Duracion total 6 meses. Valor total contrato 48 meses.",
+      "outcomes": "Propuesta ganada. Implementacion completada. Disponibilidad de red mejoro de 94% a 99.8%",
+      "partner": "Cisco"
+    },
+    {
+      "id": "PROP002",
+      "doc_type": "proposal",
+      "title": "Propuesta Ciberseguridad Farmaceutica Nacional 2025",
+      "sector": ["pharma"],
+      "timestamp": "2025-11-20",
+      "content": "Propuesta de plataforma de ciberseguridad para cumplimiento de regulaciones INVIMA y proteccion de datos de investigacion. Contexto: auditoria INVIMA identifico vulnerabilidades en manejo de datos clinicos. Solucion: implementacion de DLP, cifrado de datos en transito y reposo, y SOC administrado. Argumento diferenciador: experiencia previa en sector farmaceutico y certificaciones requeridas por INVIMA.",
+      "outcomes": "Propuesta ganada. Cliente aprobo auditoria INVIMA sin observaciones en primera instancia",
+      "partner": "Fortinet"
+    },
+    {
+      "id": "PROP003",
+      "doc_type": "proposal",
+      "title": "Propuesta IoT Logistica Integral 2026",
+      "sector": ["logistics"],
+      "timestamp": "2026-01-10",
+      "content": "Propuesta de conectividad IoT para flota de 800 vehiculos de Logistica Integral. Necesidad: visibilidad en tiempo real de ubicacion y estado de carga. Solucion: SIM M2M con plataforma de gestion de flota integrada con su ERP SAP. Diferenciador: cobertura nacional incluyendo zonas rurales via red propia y roaming. Valor contrato 36 meses.",
+      "outcomes": "Propuesta en proceso de negociacion. Cliente valora cobertura en zonas rurales donde competencia no llega",
+      "partner": "Ericsson"
+    },
+    {
+      "id": "CASE001",
+      "doc_type": "case_study",
+      "title": "Caso Exito: Transformacion Digital Manufacturera Andina",
+      "sector": ["manufacturing"],
+      "timestamp": "2025-06-30",
+      "content": "Manufacturera Andina, empresa con 3 plantas en Colombia, implemento SD-WAN y IoT Industrial para conectar sus operaciones. Antes: cada planta operaba en silos con conectividad independiente y sin visibilidad centralizada. Despues: red unificada con monitoreo en tiempo real de 2.400 maquinas industriales. Implementacion en 8 meses. ROI calculado en 14 meses.",
+      "outcomes": "Reduccion costos operativos 23%, tiempo de inactividad no planificado bajo de 48 horas mensuales a 3 horas, productividad aumento 18%",
+      "partner": "Cisco y Ericsson"
+    },
+    {
+      "id": "CASE002",
+      "doc_type": "case_study",
+      "title": "Caso Exito: Expansion Multi-Sede Financiera Norte",
+      "sector": ["financial_services"],
+      "timestamp": "2025-09-15",
+      "content": "Financiera Norte abrio 8 nuevas oficinas en 6 meses usando nuestra solucion de conectividad express. Reto: cada nueva oficina debia estar operativa en maximo 5 dias habiles con conectividad, seguridad y comunicaciones funcionando. Solucion: kit de instalacion express con SD-WAN preconfigurado y ciberseguridad integrada. Tiempo promedio de activacion: 3 dias.",
+      "outcomes": "8 oficinas abiertas en tiempo record, cero incidentes de seguridad en primer ano, ahorro 35% vs infraestructura tradicional",
+      "partner": "Cisco y Fortinet"
+    },
+    {
+      "id": "CASE003",
+      "doc_type": "case_study",
+      "title": "Caso Exito: Telemedicina Salud Total IPS",
+      "sector": ["healthcare"],
+      "timestamp": "2026-02-01",
+      "content": "Salud Total IPS implemento programa de telemedicina con cobertura en 12 sedes usando fibra dedicada y videoconferencia HD. Contexto: pandemia aceleró necesidad de atencion remota. Solucion: fibra dedicada en cada sede con QoS garantizado para videoconferencia medica y acceso a imagenes diagnosticas. Integracion con sistema HIS existente.",
+      "outcomes": "45.000 consultas de telemedicina en primer año, reduccion 60% en traslados de pacientes, satisfaccion 94%",
+      "partner": "Huawei"
+    },
+    {
+      "id": "PART001",
+      "doc_type": "partner",
+      "title": "Ficha Partner: Cisco Systems Colombia",
+      "sector": ["manufacturing", "logistics", "retail", "financial_services"],
+      "timestamp": "2026-03-15",
+      "content": "Cisco es nuestro partner Gold para soluciones de networking y SD-WAN. Capacidades: routing enterprise, SD-WAN, seguridad de red, colaboracion. Certificaciones del equipo: 8 ingenieros CCNP, 2 CCIE. Tiempo de respuesta SLA: 4 horas para critico, 8 horas para alto. Descuento partner aplicable: hasta 35% sobre precio lista. Casos de exito conjuntos en Colombia: 47 implementaciones.",
+      "outcomes": "Partner del ano Cisco Latinoamerica 2024 y 2025",
+      "partner": "Cisco"
+    },
+    {
+      "id": "PART002",
+      "doc_type": "partner",
+      "title": "Ficha Partner: Fortinet Security",
+      "sector": ["financial_services", "healthcare", "pharma", "insurance", "government"],
+      "timestamp": "2026-02-20",
+      "content": "Fortinet es nuestro partner para soluciones de ciberseguridad empresarial. Capacidades: NGFW, EDR, SIEM, SOC gestionado, cumplimiento normativo. Certificaciones: 6 ingenieros NSE7, 2 NSE8. Especialidad en sectores regulados: financiero, salud, farmaceutico. Tiempo de respuesta ante incidentes criticos: 1 hora. Referencias verificables en SFC y Superintendencia de Salud.",
+      "outcomes": "Unico partner Fortinet con certificacion para cumplimiento SFC en Colombia",
+      "partner": "Fortinet"
+    }
+  ]
+}

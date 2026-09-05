@@ -1,0 +1,444 @@
+{
+  "companies": [
+    {
+      "id": "COL001",
+      "name": "Grupo Manufacturero Andino S.A.S",
+      "sector": "manufacturing",
+      "subsector": "metalmecanica",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "large",
+      "employees": 1200,
+      "annual_revenue_usd": 45000000,
+      "is_client": false,
+      "contact": {
+        "name": "Carlos Mendez",
+        "role": "Gerente de TI",
+        "email": "cmendez@grupoandino.com.co"
+      },
+      "current_signals": [
+        "expansion_new_facility",
+        "it_investment"
+      ],
+      "description": "Empresa manufacturera con plantas en Bogota y Medellin, en proceso de expansion hacia Barranquilla"
+    },
+    {
+      "id": "COL002",
+      "name": "Retail Colombiano Express Ltda",
+      "sector": "retail",
+      "subsector": "supermercados",
+      "region": "Medellin",
+      "city": "Medellin",
+      "size": "large",
+      "employees": 3400,
+      "annual_revenue_usd": 120000000,
+      "is_client": true,
+      "contact": {
+        "name": "Maria Fernanda Ospina",
+        "role": "Directora de Operaciones",
+        "email": "mospina@retailexpress.com.co"
+      },
+      "current_signals": [
+        "leadership_change",
+        "merger_acquisition"
+      ],
+      "description": "Cadena de supermercados con 45 puntos de venta en Antioquia, adquiriendo competidor regional"
+    },
+    {
+      "id": "COL003",
+      "name": "Constructora Pacifico S.A",
+      "sector": "construction",
+      "subsector": "infraestructura",
+      "region": "Cali",
+      "city": "Cali",
+      "size": "medium",
+      "employees": 650,
+      "annual_revenue_usd": 28000000,
+      "is_client": false,
+      "contact": {
+        "name": "Andres Restrepo",
+        "role": "CFO",
+        "email": "arestrepo@constructorapacifico.com.co"
+      },
+      "current_signals": [
+        "new_project_award",
+        "it_investment"
+      ],
+      "description": "Constructora adjudicada con proyecto de infraestructura vial por 80 millones USD en el Pacifico colombiano"
+    },
+    {
+      "id": "COL004",
+      "name": "Financiera Norte S.A",
+      "sector": "financial_services",
+      "subsector": "credito",
+      "region": "Barranquilla",
+      "city": "Barranquilla",
+      "size": "medium",
+      "employees": 420,
+      "annual_revenue_usd": 35000000,
+      "is_client": true,
+      "contact": {
+        "name": "Jorge Pereira",
+        "role": "CTO",
+        "email": "jpereira@financieranorte.com.co"
+      },
+      "current_signals": [
+        "expansion_new_office",
+        "regulatory_compliance"
+      ],
+      "description": "Financiera en expansion abriendo 3 nuevas oficinas en la Costa Caribe colombiana"
+    },
+    {
+      "id": "COL005",
+      "name": "Agro Industrial del Llano S.A.S",
+      "sector": "agriculture",
+      "subsector": "agroindustria",
+      "region": "Villavicencio",
+      "city": "Villavicencio",
+      "size": "medium",
+      "employees": 890,
+      "annual_revenue_usd": 22000000,
+      "is_client": false,
+      "contact": {
+        "name": "Paula Gutierrez",
+        "role": "Gerente General",
+        "email": "pgutierrez@agroindustriallano.com.co"
+      },
+      "current_signals": [
+        "it_investment",
+        "expansion_new_facility"
+      ],
+      "description": "Empresa agroindustrial invirtiendo en digitalizacion de operaciones y apertura de planta de procesamiento"
+    },
+    {
+      "id": "COL006",
+      "name": "Logistica Integral Colombiana S.A",
+      "sector": "logistics",
+      "subsector": "transporte_carga",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "large",
+      "employees": 2100,
+      "annual_revenue_usd": 67000000,
+      "is_client": true,
+      "contact": {
+        "name": "Ricardo Vargas",
+        "role": "Director de TI",
+        "email": "rvargas@logisticaintegral.com.co"
+      },
+      "current_signals": [
+        "fleet_expansion",
+        "it_investment"
+      ],
+      "description": "Empresa de logistica expandiendo flota e implementando sistema de tracking en tiempo real"
+    },
+    {
+      "id": "COL007",
+      "name": "Salud Total IPS S.A.S",
+      "sector": "healthcare",
+      "subsector": "clinicas",
+      "region": "Medellin",
+      "city": "Medellin",
+      "size": "large",
+      "employees": 1800,
+      "annual_revenue_usd": 55000000,
+      "is_client": false,
+      "contact": {
+        "name": "Diana Cardona",
+        "role": "Gerente de Infraestructura",
+        "email": "dcardona@saludtotalips.com.co"
+      },
+      "current_signals": [
+        "expansion_new_facility",
+        "it_investment"
+      ],
+      "description": "IPS abriendo nueva clinica en el sur de Medellin con inversion en telemedicina"
+    },
+    {
+      "id": "COL008",
+      "name": "Energia Renovable Andina S.A",
+      "sector": "energy",
+      "subsector": "energias_renovables",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "medium",
+      "employees": 340,
+      "annual_revenue_usd": 18000000,
+      "is_client": false,
+      "contact": {
+        "name": "Felipe Moreno",
+        "role": "CEO",
+        "email": "fmoreno@energiarenovableandina.com.co"
+      },
+      "current_signals": [
+        "new_project_award",
+        "expansion_new_office"
+      ],
+      "description": "Empresa de energia solar adjudicada con proyecto de 50MW en La Guajira"
+    },
+    {
+      "id": "COL009",
+      "name": "Editorial Educativa Nacional S.A.S",
+      "sector": "education",
+      "subsector": "editorial",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "medium",
+      "employees": 280,
+      "annual_revenue_usd": 12000000,
+      "is_client": true,
+      "contact": {
+        "name": "Claudia Ramirez",
+        "role": "Directora Digital",
+        "email": "cramirez@editorialeducativa.com.co"
+      },
+      "current_signals": [
+        "digital_transformation",
+        "it_investment"
+      ],
+      "description": "Editorial migrando todo su catalogo a plataforma digital con expansion a mercado latinoamericano"
+    },
+    {
+      "id": "COL010",
+      "name": "Mineria del Sur S.A",
+      "sector": "mining",
+      "subsector": "carbon",
+      "region": "Barrancabermeja",
+      "city": "Barrancabermeja",
+      "size": "large",
+      "employees": 2800,
+      "annual_revenue_usd": 95000000,
+      "is_client": false,
+      "contact": {
+        "name": "Hernan Castillo",
+        "role": "Director de Operaciones",
+        "email": "hcastillo@mineriasur.com.co"
+      },
+      "current_signals": [
+        "it_investment",
+        "regulatory_compliance"
+      ],
+      "description": "Empresa minera invirtiendo en automatizacion y cumplimiento de nuevas regulaciones ambientales"
+    },
+    {
+      "id": "COL011",
+      "name": "Tecnologia Empresarial Colombiana S.A.S",
+      "sector": "technology",
+      "subsector": "software",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "medium",
+      "employees": 180,
+      "annual_revenue_usd": 8000000,
+      "is_client": false,
+      "contact": {
+        "name": "Santiago Gomez",
+        "role": "CTO",
+        "email": "sgomez@tecempresarial.com.co"
+      },
+      "current_signals": [
+        "funding_round",
+        "expansion_new_office"
+      ],
+      "description": "Startup de software B2B que acaba de cerrar ronda Serie A por 5 millones USD"
+    },
+    {
+      "id": "COL012",
+      "name": "Hoteleria y Turismo Caribe S.A",
+      "sector": "hospitality",
+      "subsector": "hoteles",
+      "region": "Cartagena",
+      "city": "Cartagena",
+      "size": "medium",
+      "employees": 560,
+      "annual_revenue_usd": 24000000,
+      "is_client": false,
+      "contact": {
+        "name": "Valentina Torres",
+        "role": "Gerente de TI",
+        "email": "vtorres@hotelcaribe.com.co"
+      },
+      "current_signals": [
+        "expansion_new_facility",
+        "it_investment"
+      ],
+      "description": "Cadena hotelera construyendo nuevo resort en Cartagena con inversion en sistemas de gestion"
+    },
+    {
+      "id": "COL013",
+      "name": "Farmaceutica Colombiana S.A",
+      "sector": "pharma",
+      "subsector": "laboratorios",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "large",
+      "employees": 1400,
+      "annual_revenue_usd": 78000000,
+      "is_client": true,
+      "contact": {
+        "name": "Mauricio Leal",
+        "role": "Director de IT",
+        "email": "mleal@farmaceuticacol.com.co"
+      },
+      "current_signals": [
+        "regulatory_compliance",
+        "expansion_new_facility"
+      ],
+      "description": "Laboratorio farmaceutico ampliando planta de produccion para cumplir nuevas normas INVIMA"
+    },
+    {
+      "id": "COL014",
+      "name": "Seguros del Pacifico S.A",
+      "sector": "insurance",
+      "subsector": "seguros_empresariales",
+      "region": "Cali",
+      "city": "Cali",
+      "size": "medium",
+      "employees": 390,
+      "annual_revenue_usd": 31000000,
+      "is_client": false,
+      "contact": {
+        "name": "Isabel Mosquera",
+        "role": "CTO",
+        "email": "imosquera@segurospacifico.com.co"
+      },
+      "current_signals": [
+        "digital_transformation",
+        "leadership_change"
+      ],
+      "description": "Aseguradora con nuevo CTO iniciando proceso de transformacion digital de sus operaciones"
+    },
+    {
+      "id": "COL015",
+      "name": "Transporte Masivo Bogota S.A.S",
+      "sector": "transportation",
+      "subsector": "transporte_publico",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "large",
+      "employees": 4200,
+      "annual_revenue_usd": 145000000,
+      "is_client": true,
+      "contact": {
+        "name": "Roberto Diaz",
+        "role": "Gerente de Tecnologia",
+        "email": "rdiaz@transmisivoboa.com.co"
+      },
+      "current_signals": [
+        "it_investment",
+        "expansion_new_facility"
+      ],
+      "description": "Operador de transporte masivo modernizando infraestructura tecnologica para nueva linea del metro"
+    },
+    {
+      "id": "COL016",
+      "name": "Alimentos del Valle S.A",
+      "sector": "food_beverage",
+      "subsector": "alimentos_procesados",
+      "region": "Cali",
+      "city": "Cali",
+      "size": "large",
+      "employees": 1650,
+      "annual_revenue_usd": 58000000,
+      "is_client": false,
+      "contact": {
+        "name": "Natalia Herrera",
+        "role": "Directora de Operaciones",
+        "email": "nherrera@alimentosvalle.com.co"
+      },
+      "current_signals": [
+        "expansion_new_facility",
+        "merger_acquisition"
+      ],
+      "description": "Empresa de alimentos adquiriendo marca regional y construyendo nueva planta de produccion"
+    },
+    {
+      "id": "COL017",
+      "name": "Inmobiliaria Capital S.A.S",
+      "sector": "real_estate",
+      "subsector": "construccion_comercial",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "medium",
+      "employees": 145,
+      "annual_revenue_usd": 42000000,
+      "is_client": false,
+      "contact": {
+        "name": "Alejandro Pardo",
+        "role": "Gerente General",
+        "email": "apardo@inmobiliariacapital.com.co"
+      },
+      "current_signals": [
+        "new_project_award",
+        "it_investment"
+      ],
+      "description": "Inmobiliaria iniciando proyecto de parque empresarial de 200 millones USD en norte de Bogota"
+    },
+    {
+      "id": "COL018",
+      "name": "Quimica Industrial Andina S.A",
+      "sector": "chemical",
+      "subsector": "quimica_industrial",
+      "region": "Medellin",
+      "city": "Medellin",
+      "size": "medium",
+      "employees": 520,
+      "annual_revenue_usd": 33000000,
+      "is_client": true,
+      "contact": {
+        "name": "Camilo Arbelaez",
+        "role": "Director de TI",
+        "email": "carbelaez@quimicaandina.com.co"
+      },
+      "current_signals": [
+        "regulatory_compliance",
+        "it_investment"
+      ],
+      "description": "Empresa quimica adaptando procesos a nuevas regulaciones ambientales con inversion en sistemas ERP"
+    },
+    {
+      "id": "COL019",
+      "name": "Medios Digitales Colombia S.A.S",
+      "sector": "media",
+      "subsector": "medios_digitales",
+      "region": "Bogota",
+      "city": "Bogota",
+      "size": "small",
+      "employees": 95,
+      "annual_revenue_usd": 5000000,
+      "is_client": false,
+      "contact": {
+        "name": "Laura Jimenez",
+        "role": "CEO",
+        "email": "ljimenez@mediosdigitalescol.com.co"
+      },
+      "current_signals": [
+        "funding_round",
+        "expansion_new_office"
+      ],
+      "description": "Medio digital cerrando ronda de inversion y expandiendo operaciones a 3 nuevas ciudades"
+    },
+    {
+      "id": "COL020",
+      "name": "Servicios Portuarios del Caribe S.A",
+      "sector": "maritime",
+      "subsector": "puertos",
+      "region": "Barranquilla",
+      "city": "Barranquilla",
+      "size": "large",
+      "employees": 1100,
+      "annual_revenue_usd": 72000000,
+      "is_client": false,
+      "contact": {
+        "name": "Miguel Angel Suarez",
+        "role": "Director de Infraestructura",
+        "email": "msuarez@puertocaribe.com.co"
+      },
+      "current_signals": [
+        "expansion_new_facility",
+        "it_investment"
+      ],
+      "description": "Operador portuario modernizando terminal con inversion en automatizacion y sistemas de gestion"
+    }
+  ]
+}

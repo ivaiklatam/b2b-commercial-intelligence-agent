@@ -1,0 +1,74 @@
+{
+  "system": {
+    "name": "B2B Commercial Intelligence Agent",
+    "version": "1.0.0",
+    "description": "Agentic system for B2B commercial intelligence in Colombian Telco market"
+  },
+  "strategic_filters": {
+    "excluded_sectors": [
+      "government",
+      "ngo",
+      "education_public"
+    ],
+    "priority_sectors": [
+      "manufacturing",
+      "logistics",
+      "financial_services",
+      "healthcare",
+      "retail",
+      "construction",
+      "energy",
+      "mining"
+    ],
+    "target_regions": [
+      "Bogota",
+      "Medellin",
+      "Cali",
+      "Barranquilla",
+      "Cartagena",
+      "Bucaramanga"
+    ],
+    "minimum_company_size": "medium",
+    "minimum_revenue_usd": 5000000
+  },
+  "signal_types": {
+    "high_priority": [
+      "expansion_new_facility",
+      "merger_acquisition",
+      "leadership_change",
+      "funding_round"
+    ],
+    "medium_priority": [
+      "it_investment",
+      "digital_transformation",
+      "regulatory_compliance",
+      "new_project_award"
+    ],
+    "low_priority": [
+      "expansion_new_office",
+      "fleet_expansion"
+    ]
+  },
+  "scoring": {
+    "commercial_relevance_weight": 0.40,
+    "argument_strength_weight": 0.35,
+    "actionability_weight": 0.25,
+    "approval_threshold": 0.60,
+    "no_evidence_penalty": 0.50,
+    "max_revision_iterations": 2
+  },
+  "rag": {
+    "top_k": 5,
+    "pricing_content_max_age_days": 90,
+    "case_study_max_age_days": 548
+  },
+  "contracts": {
+    "urgent_expiry_days": 30,
+    "warning_expiry_days": 90
+  },
+  "cycle": {
+    "max_companies_per_run": 5,
+    "output_format": "markdown",
+    "save_memory": true
+  }
+}
