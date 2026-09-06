@@ -17,7 +17,7 @@ from tools.pipeline import analyze_pipeline, get_advisor_for_region
 
 def _get_llm():
     return ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
         google_api_key=os.getenv("GOOGLE_GEMINI_API_KEY"),
         temperature=0.1
     )
@@ -86,8 +86,15 @@ def _score_hypothesis(
         ))
     ]
 
-    llm_response = llm.invoke(messages)
-    raw = llm_response.content.strip()
+    response = llm.invoke(messages)
+    content = response.content
+    if isinstance(content, list):
+        raw = " ".join(
+            part.get("text", "") if isinstance(part, dict) else str(part)
+            for part in content
+        ).strip()
+    else:
+        raw = content.strip()
 
     if raw.startswith("```"):
         raw = raw.split("```")[1]

@@ -100,7 +100,7 @@ def run_scout(state: AgentState) -> AgentState:
     print(f"   Analyzing {len(filtered)} companies...")
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
         google_api_key=os.getenv("GOOGLE_GEMINI_API_KEY"),
         temperature=0.1
     )
@@ -157,7 +157,14 @@ RSS feed: {rss_result[:300]}
                 ]
 
                 response = llm.invoke(messages)
-                raw = response.content.strip()
+                content = response.content
+                if isinstance(content, list):
+                    raw = " ".join(
+                        part.get("text", "") if isinstance(part, dict) else str(part)
+                        for part in content
+                    ).strip()
+                else:
+                    raw = content.strip()
 
                 # Clean markdown if present
                 if raw.startswith("```"):

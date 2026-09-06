@@ -1,0 +1,223 @@
+{
+  "cycles": [
+    {
+      "cycle_id": "20260906_080040",
+      "cycle_date": "2026-09-06 08:00:40",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 0,
+      "hypotheses_generated": 0,
+      "recommendations_approved": 0,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [
+        "Scout error for Grupo Manufacturero Andino S.A.S/expansion_new_facility: Error calling model 'gemini-1.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+        "Scout error for Grupo Manufacturero Andino S.A.S/it_investment: Error calling model 'gemini-1.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+      ],
+      "approved_summary": []
+    },
+    {
+      "cycle_id": "20260906_080727",
+      "cycle_date": "2026-09-06 08:07:27",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 0,
+      "hypotheses_generated": 0,
+      "recommendations_approved": 0,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [
+        "Scout error for Grupo Manufacturero Andino S.A.S/expansion_new_facility: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
+        "Scout error for Grupo Manufacturero Andino S.A.S/it_investment: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+      ],
+      "approved_summary": []
+    },
+    {
+      "cycle_id": "20260906_081129",
+      "cycle_date": "2026-09-06 08:11:29",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 0,
+      "hypotheses_generated": 0,
+      "recommendations_approved": 0,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [
+        "Scout error for Grupo Manufacturero Andino S.A.S/expansion_new_facility: 'list' object has no attribute 'strip'",
+        "Scout error for Grupo Manufacturero Andino S.A.S/it_investment: 'list' object has no attribute 'strip'"
+      ],
+      "approved_summary": []
+    },
+    {
+      "cycle_id": "20260906_081718",
+      "cycle_date": "2026-09-06 08:17:18",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 2,
+      "hypotheses_generated": 0,
+      "recommendations_approved": 0,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [
+        "Strategist error for Grupo Manufacturero Andino S.A.S: 'list' object has no attribute 'strip'",
+        "Strategist error for Grupo Manufacturero Andino S.A.S: 'list' object has no attribute 'strip'"
+      ],
+      "approved_summary": []
+    },
+    {
+      "cycle_id": "20260906_082918",
+      "cycle_date": "2026-09-06 08:29:18",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 2,
+      "hypotheses_generated": 2,
+      "recommendations_approved": 0,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [
+        "Strategist error for Grupo Manufacturero Andino S.A.S: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 47.809075977s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}",
+        "Critic error for Grupo Manufacturero Andino S.A.S: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 7.411531996s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}",
+        "Critic error for Grupo Manufacturero Andino S.A.S: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 41.165152444s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '41s'}]}}"
+      ],
+      "approved_summary": []
+    },
+    {
+      "cycle_id": "20260906_084627",
+      "cycle_date": "2026-09-06 08:46:27",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 0,
+      "hypotheses_generated": 0,
+      "recommendations_approved": 0,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [
+        "Scout error for Grupo Manufacturero Andino S.A.S/expansion_new_facility: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 44.368226684s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}",
+        "Scout error for Grupo Manufacturero Andino S.A.S/it_investment: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 32.830840709s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}"
+      ],
+      "approved_summary": []
+    },
+    {
+      "cycle_id": "20260906_085545",
+      "cycle_date": "2026-09-06 08:55:45",
+      "target_sector": "manufacturing",
+      "target_region": "Bogota",
+      "companies_analyzed": 1,
+      "signals_detected": 2,
+      "hypotheses_generated": 4,
+      "recommendations_approved": 4,
+      "recommendations_rejected": 0,
+      "unresolved_signals": 0,
+      "groundedness_rate": 0.0,
+      "pruning_rate": 0.0,
+      "escalation_rate": 0.0,
+      "cycle_latency_seconds": 0.0,
+      "errors": [],
+      "approved_summary": [
+        {
+          "company": "Grupo Manufacturero Andino S.A.S",
+          "product": "SD-WAN Enterprise Multi-Site & Internet Dedicado",
+          "score": 0.933,
+          "label": "approved",
+          "advisor": "Carlos Eduardo Ruiz"
+        },
+        {
+          "company": "Grupo Manufacturero Andino S.A.S",
+          "product": "SD-WAN Enterprise Multi-Site y Flotas Móviles Corporativas",
+          "score": 0.927,
+          "label": "approved",
+          "advisor": "Carlos Eduardo Ruiz"
+        },
+        {
+          "company": "Grupo Manufacturero Andino S.A.S",
+          "product": "SD-WAN Enterprise Multi-Site & Internet Dedicado",
+          "score": 0.94,
+          "label": "approved",
+          "advisor": "Carlos Eduardo Ruiz"
+        },
+        {
+          "company": "Grupo Manufacturero Andino S.A.S",
+          "product": "Ciberseguridad Gestionada OT/IT (Alianza Fortinet)",
+          "score": 0.933,
+          "label": "approved",
+          "advisor": "Carlos Eduardo Ruiz"
+        }
+      ]
+    }
+  ],
+  "signal_patterns": {
+    "contract_renewal": {
+      "approved": 4,
+      "rejected": 0,
+      "success_rate": 1.0
+    }
+  },
+  "sector_performance": {
+    "connectivity": {
+      "approved_count": 3,
+      "avg_score": 0.933,
+      "scores": [
+        0.933,
+        0.927,
+        0.94
+      ]
+    },
+    "security": {
+      "approved_count": 1,
+      "avg_score": 0.933,
+      "scores": [
+        0.933
+      ]
+    }
+  },
+  "rag_evidence_hits": {
+    "Caso de éxito comprobado en el sector manufacturero colombiano ('Transformación ": 1,
+    "Solución SD-WAN Enterprise diseñada para el sector manufactura con gestión centr": 1,
+    "Caso de Éxito 'Transformación Digital Manufacturera Andina': Validación de valor": 1,
+    "Ficha de Producto 'SD-WAN Enterprise Multi-Site': Solución diseñada para el sect": 1,
+    "Caso de éxito en sector manufactura en Colombia interconectando 3 plantas con SD": 1,
+    "Respaldo tecnológico de Cisco Systems Colombia como Partner Gold en soluciones d": 1,
+    "Capacidad de gestión centralizada y priorización de tráfico para aplicaciones in": 1,
+    "Caso de éxito 'Transformación Digital Manufacturera Andina' que demuestra experi": 1,
+    "Alianza estratégica Fortinet con certificaciones especializadas en cibersegurida": 1
+  },
+  "cumulative_stats": {
+    "total_cycles": 7,
+    "total_signals": 6,
+    "total_approved": 4,
+    "total_rejected": 0,
+    "total_unresolved": 0,
+    "avg_groundedness_rate": 0.0,
+    "avg_pruning_rate": 0.0
+  }
+}

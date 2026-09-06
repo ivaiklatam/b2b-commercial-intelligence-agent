@@ -27,7 +27,7 @@ def _load_portfolio() -> list:
 
 def _get_embeddings():
     return GoogleGenerativeAIEmbeddings(
-        model="models/text-embedding-004",
+        model=os.getenv("GEMINI_EMBEDDING_MODEL", "models/gemini-embedding-001"),
         google_api_key=os.getenv("GOOGLE_GEMINI_API_KEY")
     )
 
