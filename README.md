@@ -142,7 +142,7 @@ b2b-commercial-intelligence-agent/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/b2b-commercial-intelligence-agent.git
+git clone https://github.com/ivaiklatam/b2b-commercial-intelligence-agent
 cd b2b-commercial-intelligence-agent
 ```
 
